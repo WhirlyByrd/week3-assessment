@@ -1,0 +1,99 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 150px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+#about {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+#about > h1 {
+	flex: 100%;
+}
+
+#skills {
+	flex: 50%;
+}
+
+#interests {
+	flex: 50%;
+}
+
+#careerGoals {
+	flex: 100%;
+}
+
+#aboutMeButtons {
+	flex: 100%;
+	justify-content: space-evenly;
+	flex-direction: row;	
+	
+}
+
+.profileBtns {
+	
+	background-color: yellow;
+	height:35px;
+	border-radius: 10px;
+
+}
+
+#links {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#fortSill > img{
+	
+}
+
+#whichitaMountains {
+	
+}
